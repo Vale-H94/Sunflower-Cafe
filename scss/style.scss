@@ -1,0 +1,257 @@
+.logos{
+    width: 260px;
+    margin-right: 100px;
+}  
+  
+  
+.bloque1 {
+    margin-bottom: 60px !important;
+    margin-top: 50px !important;
+}
+  
+
+.bloque3 {
+    margin-bottom: 60px !important;
+    margin-top: 70px !important;
+  }
+  
+  .menu {
+    font-weight: 600 !important;
+}
+  
+.btn-primary{
+    background-color:dimgray !important;
+    border: none !important;
+}
+  
+.btn-primary:hover{
+    background-color:darkorange !important;
+}
+
+    
+  #descripcion {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+}
+    
+  #redessociales2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+  #redessociales2 a img{
+    margin: 5px;
+    width: 30px;
+}
+    
+  #email h4{
+    font-size: 0.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+    
+  .bloqueemail{
+    margin-top: 20px;
+    background-color: #ededed;
+    height: 20px;
+    width: 280px;
+}
+    
+.icon-demo .bi, .icon-demo-examples .bi {
+    width: 1.3em;
+    height: 1.3em;
+      
+}
+  
+.bi {
+    display: inline-block;
+    justify-content: end;
+    vertical-align: -0.125em;
+    fill: currentcolor;
+    margin-right: 10px;
+    justify-items: center;
+    margin-bottom: 2px;
+    vertical-align: -.125em;
+}
+  
+.icon-demo .flor, .icon-demo-examples .flor {
+    width: 1.3em;
+    height: 1.3em;
+}
+       
+.flor {
+    display: inline-block;
+    justify-content: end;
+    vertical-align: -0.125em;
+    fill: currentcolor;
+    margin-right: 10px;
+    justify-items: center;
+    margin-top: 2px;
+}
+  
+  .nosotros {
+  margin-top: 80px;
+  text-align: center;
+  color: dimgrey;
+}
+  
+  .suncafe1 {
+  font-weight: 800px;
+  text-align: center;
+  color: darkorange;
+}
+  
+  .text1{
+  font-size: 1.1rem;
+}
+  
+.bloque4{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+  
+.tituloteam {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(26, 8, 2);
+    margin-bottom: 50px;
+
+}
+
+.tituloteam a{
+    text-decoration: none;
+    color: #201103;
+}
+  
+.suncafe2 {
+    font-weight: 800px;
+    text-align: center;
+    color: white;
+}
+  
+  
+.card-body{
+    text-align: center !important;
+}
+  
+.team{
+    justify-content: center !important; 
+    display: flex !important;
+}
+  
+  .siguenos{
+    padding-top: 80px;
+    margin-top: 70px;
+    text-align: center;
+    color:#1c0c06;
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  
+
+
+.carousel-inner img {
+/* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.font{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 570 !important;
+    margin-right: 15px !important;
+    
+}
+
+.container2{
+    height: 80px !important;
+}
+
+.font2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    margin-right: 15px !important;
+    
+}
+
+.bg{
+    background: linear-gradient(to right,#ffa727, #fdbe66) !important;
+}
+
+.gallery{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.contenido1{
+    background: linear-gradient(to right,#ffa727, #fdbe66) !important;
+    padding-bottom: 70px;
+}
+
+.contenido2{
+    background: linear-gradient(to right,#ffc368, #fccf91) !important;
+    padding-bottom: 70px;
+    padding-top: 90px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.teambloque{
+    background: linear-gradient(to right,#ffa727, #fdbe66) !important;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+@media (min-width: 768px) {
+    .imgteam {
+        width: 50px;
+      
+    }
+}
+
+.textoteam{
+    padding-top: 20px !important;
+}
