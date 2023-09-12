@@ -15,7 +15,7 @@
     margin-top: 70px !important;
   }
   
-  .menu {
+.menu {
     font-weight: 600 !important;
 }
   
@@ -91,19 +91,23 @@
     margin-top: 2px;
 }
   
-  .nosotros {
-  margin-top: 80px;
+.nosotros {
+  margin-top: 50px;
   text-align: center;
   color: dimgrey;
 }
+
+.texto1 {
+    color: dimgrey !important;
+  }
+
   
-  .suncafe1 {
-  font-weight: 800px;
+.suncafe1 {
   text-align: center;
   color: darkorange;
 }
   
-  .text1{
+.text1{
   font-size: 1.1rem;
 }
   
@@ -259,3 +263,38 @@
     width: 100% !important;
 }
 
+.imgcafe{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.tresimg{
+    margin-top: 10px !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  } 
+
+.map-container-4{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-4 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
