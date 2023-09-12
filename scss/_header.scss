@@ -1,0 +1,29 @@
+.bg{
+    background: linear-gradient(to right,#ffa727, #fdbe66) !important;
+}
+
+.font2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    margin-right: 15px !important;
+    
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.font{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 570 !important;
+    margin-right: 15px !important;
+    
+}

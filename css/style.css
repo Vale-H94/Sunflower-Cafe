@@ -1,6 +1,29 @@
-.logos {
-  width: 260px;
-  margin-right: 100px;
+.bg {
+  background: linear-gradient(to right, #ffa727, #fdbe66) !important;
+}
+
+.font2 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  margin-right: 15px !important;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.font {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 570 !important;
+  margin-right: 15px !important;
 }
 
 .bloque1 {
@@ -13,8 +36,87 @@
   margin-top: 70px !important;
 }
 
-.menu {
-  font-weight: 600 !important;
+.bloque4 {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.suncafe1 {
+  text-align: center;
+  color: darkorange;
+}
+
+.tituloteam {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(26, 8, 2);
+  margin-bottom: 50px;
+}
+
+.tituloteam a {
+  text-decoration: none;
+  color: #201103;
+}
+
+.suncafe2 {
+  font-weight: 800px;
+  text-align: center;
+  color: white;
+}
+
+.textoteam {
+  padding-top: 20px !important;
+}
+
+.imgg {
+  width: 100% !important;
+}
+
+.imgcafe {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.tresimg {
+  margin-top: 10px !important;
+}
+
+.teambloque {
+  background: linear-gradient(to right, #ffa727, #fdbe66) !important;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.contenido1 {
+  background: linear-gradient(to right, #ffa727, #fdbe66) !important;
+  padding-bottom: 70px;
+}
+
+.contenido2 {
+  background: linear-gradient(to right, #ffc368, #fccf91) !important;
+  padding-bottom: 70px;
+  padding-top: 90px;
+}
+
+.flor {
+  display: inline-block;
+  justify-content: end;
+  vertical-align: -0.125em;
+  fill: currentcolor;
+  margin-right: 10px;
+  justify-items: center;
+  margin-top: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
 }
 
 .btn-primary {
@@ -24,6 +126,78 @@
 
 .btn-primary:hover {
   background-color: darkorange !important;
+}
+
+.bi {
+  display: inline-block;
+  justify-content: end;
+  vertical-align: -0.125em;
+  fill: currentcolor;
+  margin-right: 10px;
+  justify-items: center;
+  margin-bottom: 2px;
+  vertical-align: -0.125em;
+}
+
+.gallery {
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.animacion {
+  animation: mymove 8s linear;
+  position: relative;
+}
+
+.animacion {
+  animation-timing-function: ease;
+}
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+    clip-path: inset(50% 0% 50% 0%);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
+.animacion2 {
+  animation: zoom 5s;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#googleMap {
+  width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.map-container-4 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-4 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 #descripcion {
@@ -61,30 +235,9 @@
   height: 1.3em;
 }
 
-.bi {
-  display: inline-block;
-  justify-content: end;
-  vertical-align: -0.125em;
-  fill: currentcolor;
-  margin-right: 10px;
-  justify-items: center;
-  margin-bottom: 2px;
-  vertical-align: -0.125em;
-}
-
 .icon-demo .flor, .icon-demo-examples .flor {
   width: 1.3em;
   height: 1.3em;
-}
-
-.flor {
-  display: inline-block;
-  justify-content: end;
-  vertical-align: -0.125em;
-  fill: currentcolor;
-  margin-right: 10px;
-  justify-items: center;
-  margin-top: 2px;
 }
 
 .nosotros {
@@ -95,38 +248,6 @@
 
 .texto1 {
   color: dimgrey !important;
-}
-
-.suncafe1 {
-  text-align: center;
-  color: darkorange;
-}
-
-.text1 {
-  font-size: 1.1rem;
-}
-
-.bloque4 {
-  margin-top: 80px;
-  margin-bottom: 100px;
-}
-
-.tituloteam {
-  text-decoration: none;
-  text-align: center;
-  color: rgb(26, 8, 2);
-  margin-bottom: 50px;
-}
-
-.tituloteam a {
-  text-decoration: none;
-  color: #201103;
-}
-
-.suncafe2 {
-  font-weight: 800px;
-  text-align: center;
-  color: white;
 }
 
 .card-body {
@@ -156,44 +277,6 @@
   margin: auto;
 }
 
-.font {
-  font-family: "Poppins", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 570 !important;
-  margin-right: 15px !important;
-}
-
-.container2 {
-  height: 80px !important;
-}
-
-.font2 {
-  font-family: "Poppins", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 600 !important;
-  margin-right: 15px !important;
-}
-
-.bg {
-  background: linear-gradient(to right, #ffa727, #fdbe66) !important;
-}
-
-.gallery {
-  margin-bottom: 50px;
-  margin-left: 50px;
-}
-
-.contenido1 {
-  background: linear-gradient(to right, #ffa727, #fdbe66) !important;
-  padding-bottom: 70px;
-}
-
-.contenido2 {
-  background: linear-gradient(to right, #ffc368, #fccf91) !important;
-  padding-bottom: 70px;
-  padding-top: 90px;
-}
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -213,74 +296,15 @@
   height: 100vh;
 }
 
-.bi {
-  vertical-align: -0.125em;
-  fill: currentColor;
-}
-
-.nav-scroller .nav {
-  display: flex;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.teambloque {
-  background: linear-gradient(to right, #ffa727, #fdbe66) !important;
-  padding-top: 100px;
-  padding-bottom: 90px;
-}
-
 @media (min-width: 768px) {
   .imgteam {
     width: 50px;
   }
 }
-.textoteam {
-  padding-top: 20px !important;
-}
-
-.imgg {
-  width: 100% !important;
-}
-
-.imgcafe {
-  display: flex !important;
-  justify-content: flex-end !important;
-}
-
-.tresimg {
-  margin-top: 10px !important;
-}
-
 @media (max-width: 600px) {
   .carousel-caption {
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
-}
-#googleMap {
-  width: 100%;
-  height: 400px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-.map-container-4 {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-container-4 iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

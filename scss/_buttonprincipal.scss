@@ -1,0 +1,19 @@
+.btn-primary{
+    background-color:dimgray !important;
+    border: none !important;
+}
+  
+.btn-primary:hover{
+    background-color: $color !important;
+}
+
+.bi {
+    display: inline-block;
+    justify-content: end;
+    vertical-align: -0.125em;
+    fill: currentcolor;
+    margin-right: 10px;
+    justify-items: center;
+    margin-bottom: 2px;
+    vertical-align: -.125em;
+}
