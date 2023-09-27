@@ -11,6 +11,13 @@
 .bloque4{
     margin-top: 80px;
     margin-bottom: 100px;
+
+}
+
+.bloquefondo{
+    background-color: rgb(240, 240, 240) !important;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .suncafe1 {
@@ -86,3 +93,9 @@
     .img {
         max-width: 100% !important;    }
   }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  } 
