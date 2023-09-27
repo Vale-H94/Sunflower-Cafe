@@ -27,9 +27,10 @@
 }
   
 .tituloteam a{
-      text-decoration: none;
+    text-decoration: none;
       color: #201103;
 }
+
     
 .suncafe2 {
       font-weight: 800px;
@@ -80,3 +81,8 @@
     justify-items: center;
     margin-top: 2px;
 }
+
+@media only screen and (max-width: 380px) {
+    .img {
+        max-width: 100% !important;    }
+  }

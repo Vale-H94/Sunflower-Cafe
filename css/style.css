@@ -108,6 +108,11 @@
   margin-top: 2px;
 }
 
+@media only screen and (max-width: 380px) {
+  .img {
+    max-width: 100% !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -117,6 +122,14 @@
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
+}
+
+.fondo {
+  background-color: rgb(219, 219, 219);
+}
+
+.ico {
+  background-size: 1rem 1rem;
 }
 
 .btn-primary {
@@ -142,6 +155,10 @@
 .gallery {
   margin-bottom: 50px;
   margin-left: 50px;
+}
+
+.insta a {
+  text-decoration: none;
 }
 
 .animacion {

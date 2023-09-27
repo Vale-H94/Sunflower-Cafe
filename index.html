@@ -2,28 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunflower Café</title>
+
     <!--link css-->
     <link rel="stylesheet" href="css/style.css">
+    <!--libreria AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
   
-        <!-- Favicons -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
     <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
     <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <!-- Seo -->
+    <meta name="description" content="En Sunflower Café, nuestra pasión por el café se convierte en una experiencia inolvidable para nuestros clientes. Somos más que una simple cafetería; somos un lugar donde los aromas frescos se mezclan con la calidez y la hospitalidad, creando un refugio para amantes del café y buscadores de momentos especiales."/>
+    <meta name="keywords" content="Cafetería, Café, Espresso, Capuccino, Latte, Té, Pasteles, Sándwiches, Desayuno, Merienda, Bebidas de café, Café de especialidad, Tostado de café"/>
+    <meta name="author" content="Sunflower Café - Cafetería de especialidad y pastelería"/>
+    <meta name="copyright" content="Sunflower Café"/>
+
+  
   </head>
 
 <header>
@@ -40,23 +52,23 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
-        <a class="nav-link text-break font" href="index.html">HOME <span class="sr-only">(current)</span></a>
-        <li class="nav-item active ">
-          <a class="nav-link text-break font" href="page/nosotros.html">NOSOTROS<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link text-break font2" href="page/cafe.html">CAFÉ ESPECIALIDAD<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link text-break font" href="page/te.html">TÉ Y DELICIAS</DEtails><span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link text-break font" href="page/contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
-        </li>
+        <a class="nav-link text-break font" href="index.html">HOME<span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link text-break font" href="page/nosotros.html">NOSOTROS<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+         <a class="nav-link text-break font2" href="page/cafe.html">CAFÉ ESPECIALIDAD<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link text-break font" href="page/te.html">TÉ Y DELICIAS<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link text-break font" href="page/contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
+        </li>
     </ul>
-  </div>
-  </div>
+</div>
+</div>
 </nav>
 </header>
     <!--Fin Menu-->
@@ -94,15 +106,15 @@
     <!-- fin Galeria -->
 
     <!-- Bloque Infromativo 1-->
-<section class="bloque1 container col-xxl-8 px-4 py-5 animacion">
+<section data-aos="zoom-in" class="bloque1 container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+        <div class="col-10 col-sm-8 col-lg-6 imgadaptable">
           <img src="img/img-01.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
           <div class="display-5 fw-bold text-body-emphasis lh-1 mb-3">SUNFLOWER <br>CAFÉ</div>
-          <p class="lead">Cafetería de Especialidad trabajamos con materias<br> primas de calidad certificada, procesos estructurados, 
-            <br>teoría actualizada y prácticas experimentadas, buscando reflejar este conjunto de características en el producto o servicio final.<br><br>Nuestra carta tiene una variedad de cosas ricas para <br>disfrutar desde temprano en la mañana hasta la noche, <br>todo elaborado con ingredientes de primera calidad.</p>
+          <p class="lead">Cafetería de Especialidad trabajamos con materias primas de calidad certificada, procesos estructurados, 
+             teoría actualizada y prácticas experimentadas, buscando reflejar este conjunto de características en el producto o servicio final.<br><br>Nuestra carta tiene una variedad de cosas ricas para disfrutar desde temprano en la mañana hasta la noche, todo elaborado con ingredientes de primera calidad.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <a class="btn btn-primary btn-lg px-4 me-md-2" href="https://drive.google.com/file/d/1M2vzKL2oy3ZA1bywJt_-I1UqAI6ZP85J/view?usp=sharing" Target="_blank>" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cup-hot-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5Z"></path>
@@ -125,13 +137,13 @@
   
       <!-- Bloque Infromativo 2-->
   <div class="contenido2">    
-  <section class="bloque2 container col-xxl-8 px-4 py-1 animacion">
+  <section data-aos="zoom-in" class="bloque2 container col-xxl-8 px-4 py-1">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
         <div class="col-10 col-sm-8 col-lg-6">
           <img src="img/img-02.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <div class="display-5 fw-bold text-body-emphasis lh-1 mb-3">TU CAFÈ <br>IDEAL</div>
+          <div class="display-5 fw-bold text-body-emphasis lh-1 mb-3">TU CAFÉ <br>IDEAL</div>
           <p class="lead">El café de especialidad es un café donde el proceso es prácticamente un arte. Se trata de un proceso de 
             excelencia, que va desde la selección del área donde se cultivan los granos, la forma en que se extraen, su calidad, un tostado perfecto y una preparación impecable, hasta llegar al paladar del consumidor.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -148,7 +160,7 @@
   
   
       <!-- Bloque Informativo 3-->
-      <section class="bloque3 container col-xxl-8 px-4 py-5">
+      <section data-aos="fade-right" class="bloque3 container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
             <div class="col-10 col-sm-8 col-lg-6">
               <img src="img/img-03.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
@@ -171,22 +183,22 @@
           <!--Titulo galeria -->
   <div class="contenido1">         
       <h2 class="siguenos"><strong>SIGUENOS</strong></h2>
-      <h3 class="tituloteam"><a href="https://www.instagram.com/sunflower_cafe._/?hl=es-la"> INSTAGRAM</h3></a>
+      <h3 class="tituloteam"><a href="https://www.instagram.com/sunflower_cafe._/?hl=es-la"> INSTAGRAM</a></h3>
           <!--Fin titulo galeria -->
   
       <!-- Galeria -->   
   <div class="container-fluid bg-4 text-center gallery">    
     <div class="row">
-      <div class="col-sm-3">
-        <img src="img/imgG1.png" class="img-responsive animacion2 imagen" width="100%" alt="Image">
+      <div data-aos="zoom-in" class="col-sm-3">
+        <img src="img/imgG1.png" class="img-responsive" width="100%" alt="Image">
       </div>
-      <div class="col-sm-3"> 
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG2.png" class="img-responsive" width="100%" alt="Image">
       </div>
-      <div class="col-sm-3"> 
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG3.png" class="img-responsive" width="100%"alt="Image">
       </div>
-      <div class="col-sm-3">
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG4.png" class="img-responsive" width="100%" alt="Image">
       </div>
     </div>
@@ -195,16 +207,16 @@
   
   <div class="container-fluid bg-4 text-center gallery">    
     <div class="row">
-      <div class="col-sm-3">
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG5.png" class="img-responsive" width="100%" alt="Image">
       </div>
-      <div class="col-sm-3"> 
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG6.png" class="img-responsive" width="100%" alt="Image">
       </div>
-      <div class="col-sm-3"> 
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG7.png" class="img-responsive" width="100%" alt="Image">
       </div>
-      <div class="col-sm-3">
+      <div data-aos="zoom-in" class="col-sm-3">
         <img src="img/imgG8.png" class="img-responsive" width="100%" alt="Image">
       </div>
     </div>
@@ -221,16 +233,22 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sunflower_cafe._/"><svg class="bi" width="24" height="24"><use xlink:href="#youtube"/></svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sunflower_cafe._/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sunflower_cafe._/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sunflower_cafe._/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube ico" viewBox="0 0 16 16">
+        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+      </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sunflower_cafe._/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+      </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/sunflower_cafe._/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></a></li>
     </ul>
   </footer>
-</div>
+
 
 <div class="b-example-divider"></div>
 
-<div class="container">
+
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">HOME</a></li>
@@ -243,16 +261,28 @@
     </p>
   </footer>
 </div>
+</div>
+
 
 
       <!-- Fin Footer -->
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-out-back',
+    duration: 2000
+      });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
